@@ -6,21 +6,21 @@ from .models import Destination
 def index(request):
     dest1 = Destination()
     dest1.name = 'Hyderabad'
-    dest1.desc = 'The city of Food'
+    dest1.desc = 'Get lost in heaven'
     dest1.img = '/hyd.jpg'
     dest1.offer = True
     dest1.price = 9000
 
     dest2 = Destination()
     dest2.name = 'Bengaluru'
-    dest2.desc = 'The city of Traffic'
+    dest2.desc = 'Bengaluru makes you feel alive!'
     dest2.img = '/bnglr.jpg'
     dest2.offer = False
     dest2.price = 8000
 
     dest3 = Destination()
     dest3.name = 'Mumbai'
-    dest3.desc = 'The city of Power'
+    dest3.desc = 'City that never sleeps'
     dest3.offer = True
     dest3.img = '/mum.jpg'
     dest3.price = 8500
