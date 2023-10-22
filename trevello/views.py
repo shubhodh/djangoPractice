@@ -8,7 +8,7 @@ def index(request):
     dest1.name = 'Hyderabad'
     dest1.desc = 'Get lost in heaven'
     dest1.img = '/hyd.jpg'
-    dest1.offer = True
+    dest1.offer = False
     dest1.price = 9000
 
     dest2 = Destination()
