@@ -15,7 +15,7 @@ def index(request):
     dest2.name = 'Bengaluru'
     dest2.desc = 'Bengaluru makes you feel alive!'
     dest2.img = '/bnglr.jpg'
-    dest2.offer = False
+    dest2.offer = True
     dest2.price = 8000
 
     dest3 = Destination()
