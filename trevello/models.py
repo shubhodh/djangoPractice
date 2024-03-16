@@ -3,10 +3,9 @@ from django.db import models
 
 # Create your models here.
 
-class Destination:
-    id: int
-    desc: str
-    name: str
-    img: str
-    price: int
-    offer : bool
+class Destination(models.Model):
+    desc = models.CharField(max_length=200)
+    name = models.TextField()
+    img = models.ImageField(upload_to='pics')
+    price = models.IntegerField()
+    offer = models.BooleanField()
