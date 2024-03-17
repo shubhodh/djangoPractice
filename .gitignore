@@ -4,4 +4,3 @@ djangoProject1/settings.py
 *.pyc
 __pycache__
 db.sqlite3
-media
